@@ -47,6 +47,6 @@ def add_s(array)
     |element, index| element + "s" 
     if index != 1
       return "feet"
-    
+    end
   end
 end
