@@ -43,5 +43,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.except(2).each_with_index.collect { |element, index| element + "s" }
+  array.each_with_index.collect { |element, index| element + "s" if element > element[1] || element < element[1]}
 end
