@@ -35,6 +35,6 @@ return newarray
 end
 
 def find_a(array)
-array.find { |string| string.start_with?("a") }
+array.find_all { |string| string.start_with?("a") }
   
 end
