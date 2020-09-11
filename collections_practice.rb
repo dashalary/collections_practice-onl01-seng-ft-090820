@@ -39,5 +39,5 @@ array.find_all { |string| string.start_with?("a") }
 end
 
 def sum_array(array)
-  
+  array.inject(0) { |result, element| result + element}
 end
